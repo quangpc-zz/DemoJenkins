@@ -1,0 +1,6 @@
+2013-12-25 16:44:55.026 xcodebuild[11702:1007] [MT] PluginLoading: Required plug-in compatibility UUID 37B30044-3B14-46BA-ABAA-F01000C27B63 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/XcodeIDEMavenPlugin.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2013-12-25 16:44:56.689 xcodebuild[11702:1007] [MT] DVTAssertions: Warning in /SourceCache/DTDeviceKit/DTDeviceKit-3697/DTDeviceKitBase/DTDeviceKitBase_Utilities.m:503
+Details:  Failed to register "/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle" with Launch Services, error code: -10811.
+Function: __RegisterUTIsIfNeeded_block_invoke
+Thread:   <NSThread: 0x7fc2a940e400>{name = (null), num = 1}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.

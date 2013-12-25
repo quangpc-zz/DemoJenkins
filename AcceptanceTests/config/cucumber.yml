@@ -1,0 +1,13 @@
+# config/cucumber.yml
+##YAML Template
+---
+android: PLATFORM=android -r features/support -r features/android/support -r features/android/helpers -r features/step_definitions -r features/android/pages/
+
+android_login: PLATFORM=android -r features/support -r features/android/support -r features/android/helpers -r features/step_definitions -r features/android/pages/ --tags @add_blog
+
+ios: APP_BUNDLE_PATH="/Users/qsoft/Library/Application Support/iPhone Simulator/6.1/Applications/6A3028B0-16AA-4A9F-9776-5DC3CF8DC1E5/Prism Sales.app" SDK_VERSION=6.1 RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
+
+# ios: APP_BUNDLE_PATH="/Users/cuongtrinhhuy/Library/Application Support/iPhone Simulator/6.1/Applications/8F76060E-5C00-4905-A869-ED2006B17782/Prism Sales.app" SDK_VERSION=6.1 RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
+
+
+# ios: PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
