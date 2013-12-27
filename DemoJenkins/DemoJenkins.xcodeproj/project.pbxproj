@@ -695,6 +695,7 @@
 				);
 				INFOPLIST_FILE = "DemoJenkinsTests/DemoJenkinsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3934EBDD-00E1-4D68-A834-03357ED013CB";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
