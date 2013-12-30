@@ -5,3 +5,22 @@ xcodebuild -sdk iphonesimulator6.1 -workspace DemoJenkins.xcworkspace -scheme De
 
 chmod -r /DemoJenkins
 sudo xcodebuild clean build -workspace DemoJenkins.xcworkspace -scheme DemoJenkins-cal -configuration Debug -sdk iphonesimulator6.1 DEPLOYMENT_LOCATION=YES DSTROOT=build TARGETED_DEVICE_FAMILY=1 ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR="$WORKSPACE/build"
+
+
+// build 1
+
+#!/usr/bin/env bash
+cd DemoJenkins
+source ~/.bash_profile
+
+bundle install
+bundle exec pod repo update
+bundle exec pod install
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+xcodebuild clean build -workspace DemoJenkins.xcworkspace -scheme DemoJenkins-cal -configuration Debug -sdk iphonesimulator6.1 DEPLOYMENT_LOCATION=YES DSTROOT=build TARGETED_DEVICE_FAMILY=1 ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR="$WORKSPACE/build"
+
+// build 2
+#!/usr/bin/env bash
+source ~/.bash_profile
+
+cucumber -p ios features/*.feature
