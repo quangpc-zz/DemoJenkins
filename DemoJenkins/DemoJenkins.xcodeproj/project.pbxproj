@@ -71,7 +71,7 @@
 		D9D01E49186ABD8300442F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9D01E4A186ABD8300442F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9D01E4C186ABD8300442F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D9D01E52186ABD8300442F1A /* DemoJenkinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoJenkinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D01E52186ABD8300442F1A /* DemoJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D01E53186ABD8300442F1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D9D01E5B186ABD8300442F1A /* DemoJenkinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoJenkinsTests-Info.plist"; sourceTree = "<group>"; };
 		D9D01E5D186ABD8300442F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D01E37186ABD8300442F1A /* DemoJenkins.app */,
-				D9D01E52186ABD8300442F1A /* DemoJenkinsTests.octest */,
+				D9D01E52186ABD8300442F1A /* DemoJenkinsTests.xctest */,
 				D9D01E69186AC0D100442F1A /* DemoJenkins-cal.app */,
 			);
 			name = Products;
@@ -286,7 +286,7 @@
 			);
 			name = DemoJenkinsTests;
 			productName = DemoJenkinsTests;
-			productReference = D9D01E52186ABD8300442F1A /* DemoJenkinsTests.octest */;
+			productReference = D9D01E52186ABD8300442F1A /* DemoJenkinsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -709,7 +709,7 @@
 				PROVISIONING_PROFILE = "3934EBDD-00E1-4D68-A834-03357ED013CB";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "armv7 armv7s i386";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -731,7 +731,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "armv7 armv7s i386";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
