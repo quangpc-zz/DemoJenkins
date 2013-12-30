@@ -1,5 +1,5 @@
 platform :ios, '6.0'
-pod ‘iCarousel’
+pod 'iRate', '~> 1.9'
 target :DemoJenkinsTests, :exclusive => true do
    pod 'Kiwi'
 end

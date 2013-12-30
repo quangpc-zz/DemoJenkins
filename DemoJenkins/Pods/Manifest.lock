@@ -1,4 +1,5 @@
 PODS:
+  - iRate (1.9)
   - Kiwi (2.2.3):
     - Kiwi/SenTestingKit
   - Kiwi/ARC (2.2.3)
@@ -6,14 +7,13 @@ PODS:
   - Kiwi/SenTestingKit (2.2.3):
     - Kiwi/ARC
     - Kiwi/NonARC
-  - MBProgressHUD (0.8)
 
 DEPENDENCIES:
+  - iRate (~> 1.9)
   - Kiwi
-  - MBProgressHUD
 
 SPEC CHECKSUMS:
+  iRate: b8ee95606b5cb24ba6f8b71c2673b04968254337
   Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
-  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
 
 COCOAPODS: 0.28.0
