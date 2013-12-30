@@ -24,3 +24,15 @@ xcodebuild clean build -workspace DemoJenkins.xcworkspace -scheme DemoJenkins-ca
 source ~/.bash_profile
 
 cucumber -p ios features/*.feature
+
+
+// unit test
+#!/usr/bin/env bash
+cd DemoJenkins
+source ~/.bash_profile
+
+bundle install
+bundle exec pod repo update
+bundle exec pod install
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+xcodebuild -sdk iphonesimulator -workspace DemoJenkins.xcworkspace -scheme CommandLineUnitTests -configuration Debug RUN_APPLICATION_TESTS_WITH_IOS_SIM=YES ONLY_ACTIVE_ARCH=NO clean build 2>1
