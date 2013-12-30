@@ -704,6 +704,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DemoJenkinsTests/DemoJenkinsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3934EBDD-00E1-4D68-A834-03357ED013CB";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -726,6 +727,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoJenkins/DemoJenkins-Prefix.pch";
 				INFOPLIST_FILE = "DemoJenkinsTests/DemoJenkinsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALID_ARCHS = "armv7 armv7s i386";

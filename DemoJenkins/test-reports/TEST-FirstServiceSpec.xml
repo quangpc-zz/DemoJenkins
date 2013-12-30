@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite errors="0" failures="0" hostname="QuangPC-2.local" name="FirstServiceSpec" tests="1" time="1.0" timestamp="2013-12-27 17:48:45 +0700"><testcase classname='FirstServiceSpec' name='Test_FirstService_IWantToTestSomething_TestNumberBiggerThan10' time='0.69' />
+</testsuite>
