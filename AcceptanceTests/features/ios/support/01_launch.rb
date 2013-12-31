@@ -26,6 +26,9 @@ require 'calabash-cucumber/launcher'
 #RESET_BETWEEN_SCENARIOS=1
 
 Before do |scenario|
+  ENV['CONNECT_TIMEOUT']='100'
+  ENV['MAX_CONNECT_RETRY']='10'
+
   @calabash_launcher = Calabash::Cucumber::Launcher.new
   unless @calabash_launcher.calabash_no_launch?
     @calabash_launcher.relaunch
