@@ -1,6 +1,6 @@
 # config/cucumber.yml
 ##YAML Template
 
-ios: APP_BUNDLE_PATH="../DemoJenkins/build/Applications/DemoJenkins-cal.app" SDK_VERSION=6.1 RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
+ios: APP_BUNDLE_PATH="../DemoJenkins/build/Applications/DemoJenkins-cal.app" RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
 
 # ios: APP_BUNDLE_PATH="../DemoJenkins/build/Applications/DemoJenkins-cal.app" SDK_VERSION=6.1 RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/step_definitions -r features/ios/pages
