@@ -47,3 +47,6 @@ echo "Finished running tests with ios-sim"
 else
 "${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
 fi
+
+// launch iphone simulator
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator -currentSDKRoot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -SimulateDevice "iPhone (Retina 4-inch)"
