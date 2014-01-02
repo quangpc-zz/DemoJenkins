@@ -5,3 +5,4 @@ project demo with kiwi for unit testing, calabash for acceptance testing and jen
 
 ===========
 1. This is a test to see how to trigger build.
+Config from github with jenkins git plugin
