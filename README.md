@@ -7,7 +7,7 @@ This is the instruction with my own experience
 You can read this article for more details how to run Kiwi tests for project.<br>
 http://9elements.com/io/index.php/continuous-integration-of-ios-projects-using-jenkins-cocoapods-and-kiwi/
 <br>
-However, I want to mention that you should modify the build script in unit tests target to increase timeout for ios-sim launching simulator. By default it's 30 seconds timeout, but it often makes build fails because of Session timeout error. You can see my demo project for details.<br>
+However, I want to mention that you should modify the build script in unit tests target to increase timeout for ios-sim launching simulator. By default it's 30 seconds timeout, but it often makes build fail because of Session timeout error. You can see my demo project for details.<br>
 Here is my build execute shell in Jenkins for build project and run unit tests with Kiwi<br>
 
      #!/usr/bin/env bash
