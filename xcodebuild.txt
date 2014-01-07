@@ -49,4 +49,4 @@ else
 fi
 
 // launch iphone simulator
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator -currentSDKRoot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -SimulateDevice "iPhone (Retina 4-inch)"
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator -currentSDKRoot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -SimulateDevice "iPhone (Retina 4-inch)" -SimulateApplication /Projects/GIT/DemoJenkins/DemoJenkins/build/Applications/DemoJenkins.app
