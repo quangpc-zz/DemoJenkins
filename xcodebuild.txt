@@ -50,3 +50,6 @@ fi
 
 // launch iphone simulator
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator -currentSDKRoot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -SimulateDevice "iPhone (Retina 4-inch)" -SimulateApplication /Projects/GIT/DemoJenkins/DemoJenkins/build/Applications/DemoJenkins.app
+
+xcodebuild clean build -workspace DISPrism_Sales.xcworkspace -scheme DISPrism_Sales-cal -configuration Debug -sdk iphonesimulator6.1 DEPLOYMENT_LOCATION=YES DSTROOT=build TARGETED_DEVICE_FAMILY=1 ONLY_ACTIVE_ARCH=NO CONFIGURATION_BUILD_DIR="$WORKSPACE/build"
+
